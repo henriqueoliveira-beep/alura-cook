@@ -6,6 +6,8 @@
     import { minhaLista } from "$lib/stores/minhaLista";
     import TagLink from "$components/compartilhados/TagLink.svelte";
 
+    export const ssr = false;
+
     $: listaVazia = $minhaLista.length === 0;
 
     beforeNavigate((navigation) => {
