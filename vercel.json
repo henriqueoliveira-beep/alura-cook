@@ -1,0 +1,11 @@
+{
+  "framework": "sveltekit",
+  "buildCommand": "vite build",
+  "outputDirectory": ".svelte-kit/output",
+  "crons": [],
+  "functions": {
+    "src/routes/**/*": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
